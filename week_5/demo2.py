@@ -27,6 +27,15 @@ def is_in(string_1, string_2):
         return False
     return (string_1 in string_2) or (string_2 in string_1)
 
+
+
+
+
+def is_in(str1, str2):
+    return (
+        bool(str1 and str2) 
+        and (str1 in str2) or (str2 in str1)
+    )
+
+
 print(is_in('cat','concatanation'))
-
-

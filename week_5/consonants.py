@@ -8,16 +8,16 @@
 
 # print(f"Toal consonants are: {consonants}")
 
-# # for i in range(3):
-# #     print(i)
-# #     i = 0
-# #     print(i)
+# for i in range(3):
+#     print(i)
+#     i = 0
+#     print(i)
 
-# # x = 4
-# # for i in range(x):
-# #     for j in range(x):
-# #         x = 2
-# #         print(i,j)
+# x = 4
+# for i in range(x):
+#     for j in range(x):
+#         x = 2
+#         print(i, j)
 
 
 # numbers = [1,3,5,7]
@@ -29,6 +29,5 @@
 #     else:
 #         print("NO FOUND")
 
-maximum = max(20,'CPP','Nhan')
-print(maximum)
-
+# maximum = max(20,'CPP','Nhan')
+# print(maximum)

@@ -22,20 +22,15 @@
 #     else:
 #         print("False")
 
+
 def is_in(string_1, string_2):
     if not string_1 or not string_2:
         return False
     return (string_1 in string_2) or (string_2 in string_1)
 
 
-
-
-
 def is_in(str1, str2):
-    return (
-        bool(str1 and str2) 
-        and (str1 in str2) or (str2 in str1)
-    )
+    return bool(str1 and str2) and (str1 in str2) or (str2 in str1)
 
 
-print(is_in('cat','concatanation'))
+print(is_in("cat", "concatanation"))
